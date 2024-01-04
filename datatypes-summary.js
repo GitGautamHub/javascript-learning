@@ -38,3 +38,25 @@ console.log( typeof myFunction) //function
 console.log(typeof myobj)
 
 
+//+++++++++++++++++++++++++++++++++++ Memory +++++++++++++++++++++++++++++++
+
+
+//Stack me primitive type use hoti hain
+// heap me non primitive value jate hain
+
+let myYoutubeName="hiteshchaudharydotcom"
+let anotherName= myYoutubeName
+
+console.log(anotherName)
+
+let userOne ={
+    name1:"heheh",
+    age1:20
+}
+
+let userTwo=userOne;
+
+userTwo.name1="maaya"
+console.log(userTwo)
+console.log(userOne)
+
