@@ -1,0 +1,8 @@
+/*
+
+javascipt is synchronous and single threaded language
+
+means pehla purana statment execute hoga fr next statement excecute hoga
+
+
+*/
